@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: bar
+  cloud:
+    config:
+      env: default # optional
+      label: master # branch
+      uri: http://localhost:8888 # optional
+  jmx:
+    enabled: false
+    default-domain: consumer
